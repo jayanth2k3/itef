@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 480" role="img" aria-label="Container ship sailing at sunset">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b2a66"/>
+      <stop offset="0.45" stop-color="#3d5ea8"/>
+      <stop offset="0.8" stop-color="#f3934a"/>
+      <stop offset="1" stop-color="#ffd08a"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a5aa6"/>
+      <stop offset="1" stop-color="#071c46"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff1c9" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#ffb066" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="480" fill="url(#sky)"/>
+  <circle cx="880" cy="330" r="190" fill="url(#glow)"/>
+  <circle cx="880" cy="335" r="70" fill="#ffe2a8"/>
+
+  <!-- clouds -->
+  <g fill="#ffffff" opacity="0.18">
+    <ellipse cx="200" cy="110" rx="120" ry="16"/>
+    <ellipse cx="290" cy="96" rx="80" ry="12"/>
+    <ellipse cx="1000" cy="150" rx="140" ry="14"/>
+    <ellipse cx="640" cy="70" rx="90" ry="10"/>
+  </g>
+
+  <!-- birds -->
+  <g fill="none" stroke="#0b2a66" stroke-width="3" stroke-linecap="round" opacity="0.7">
+    <path d="M940 180 q10 -10 20 0 q10 -10 20 0"/>
+    <path d="M990 150 q8 -8 16 0 q8 -8 16 0"/>
+    <path d="M900 140 q7 -7 14 0 q7 -7 14 0"/>
+  </g>
+
+  <!-- sea -->
+  <rect y="340" width="1200" height="140" fill="url(#sea)"/>
+  <g fill="#ffd9a0" opacity="0.55">
+    <rect x="820" y="350" width="120" height="4" rx="2"/>
+    <rect x="840" y="364" width="80" height="4" rx="2"/>
+    <rect x="800" y="380" width="150" height="3" rx="1.5"/>
+    <rect x="850" y="396" width="60" height="3" rx="1.5"/>
+  </g>
+
+  <!-- ship -->
+  <g>
+    <!-- containers -->
+    <g stroke="#0a1a3a" stroke-width="2">
+      <rect x="330" y="252" width="56" height="24" fill="#f37a21"/>
+      <rect x="386" y="252" width="56" height="24" fill="#1f6fd1"/>
+      <rect x="442" y="252" width="56" height="24" fill="#2f9e47"/>
+      <rect x="498" y="252" width="56" height="24" fill="#c8323c"/>
+      <rect x="554" y="252" width="56" height="24" fill="#f37a21"/>
+      <rect x="610" y="252" width="56" height="24" fill="#1f6fd1"/>
+      <rect x="666" y="252" width="56" height="24" fill="#e7b416"/>
+      <rect x="330" y="228" width="56" height="24" fill="#2f9e47"/>
+      <rect x="386" y="228" width="56" height="24" fill="#e7b416"/>
+      <rect x="442" y="228" width="56" height="24" fill="#1f6fd1"/>
+      <rect x="498" y="228" width="56" height="24" fill="#f37a21"/>
+      <rect x="554" y="228" width="56" height="24" fill="#2f9e47"/>
+      <rect x="610" y="228" width="56" height="24" fill="#c8323c"/>
+      <rect x="386" y="204" width="56" height="24" fill="#c8323c"/>
+      <rect x="442" y="204" width="56" height="24" fill="#f37a21"/>
+      <rect x="498" y="204" width="56" height="24" fill="#1f6fd1"/>
+      <rect x="554" y="204" width="56" height="24" fill="#e7b416"/>
+    </g>
+    <!-- bridge -->
+    <rect x="236" y="196" width="80" height="80" fill="#f4f6fa"/>
+    <rect x="226" y="186" width="100" height="14" fill="#e3e8f1"/>
+    <g fill="#0b2a66">
+      <rect x="236" y="190" width="92" height="6"/>
+      <rect x="246" y="212" width="12" height="8"/><rect x="266" y="212" width="12" height="8"/><rect x="286" y="212" width="12" height="8"/>
+      <rect x="246" y="234" width="12" height="8"/><rect x="266" y="234" width="12" height="8"/><rect x="286" y="234" width="12" height="8"/>
+    </g>
+    <rect x="262" y="150" width="26" height="36" fill="#0b2a66"/>
+    <rect x="262" y="158" width="26" height="8" fill="#f37a21"/>
+    <line x1="300" y1="186" x2="300" y2="140" stroke="#0a1a3a" stroke-width="3"/>
+    <!-- hull -->
+    <path d="M200 276 L790 276 L760 344 L232 344 Z" fill="#0a1a3a"/>
+    <path d="M212 318 L773 318 L764 338 L228 338 Z" fill="#c8323c"/>
+    <text x="700" y="303" font-family="Arial, sans-serif" font-weight="700" font-size="18" fill="#ffffff" letter-spacing="2">ITEF</text>
+  </g>
+
+  <!-- waves -->
+  <g fill="none" stroke="#ffffff" stroke-linecap="round" opacity="0.35" stroke-width="3">
+    <path d="M180 352 q20 -10 40 0 t40 0 t40 0"/>
+    <path d="M760 352 q20 -10 40 0 t40 0"/>
+    <path d="M60 410 q25 -12 50 0 t50 0 t50 0"/>
+    <path d="M420 440 q25 -12 50 0 t50 0 t50 0 t50 0"/>
+    <path d="M980 430 q25 -12 50 0 t50 0 t50 0"/>
+  </g>
+</svg>

@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" role="img" aria-label="Busy container port with cranes and a docked ship">
+  <defs>
+    <linearGradient id="psky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bfdcfa"/>
+      <stop offset="1" stop-color="#eef6ff"/>
+    </linearGradient>
+    <linearGradient id="pwater" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2d7fe0"/>
+      <stop offset="1" stop-color="#0b2a66"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="560" fill="url(#psky)"/>
+  <circle cx="660" cy="100" r="44" fill="#ffd28a"/>
+
+  <!-- distant skyline -->
+  <g fill="#9fbfe6">
+    <rect x="20" y="300" width="40" height="80"/><rect x="64" y="280" width="30" height="100"/>
+    <rect x="98" y="310" width="50" height="70"/><rect x="560" y="296" width="36" height="84"/>
+    <rect x="600" y="320" width="60" height="60"/><rect x="664" y="288" width="28" height="92"/>
+    <rect x="696" y="312" width="80" height="68"/>
+  </g>
+
+  <!-- quay -->
+  <rect y="380" width="800" height="40" fill="#6b7a90"/>
+  <rect y="380" width="800" height="6" fill="#4a5870"/>
+
+  <!-- container stacks on quay -->
+  <g stroke="#0a1a3a" stroke-width="1.5">
+    <rect x="30" y="350" width="60" height="30" fill="#f37a21"/><rect x="90" y="350" width="60" height="30" fill="#1f6fd1"/>
+    <rect x="30" y="320" width="60" height="30" fill="#2f9e47"/><rect x="90" y="320" width="60" height="30" fill="#e7b416"/>
+    <rect x="60" y="290" width="60" height="30" fill="#c8323c"/>
+    <rect x="620" y="350" width="60" height="30" fill="#c8323c"/><rect x="680" y="350" width="60" height="30" fill="#2f9e47"/>
+    <rect x="650" y="320" width="60" height="30" fill="#1f6fd1"/>
+  </g>
+
+  <!-- crane 1 -->
+  <g fill="none" stroke="#f37a21" stroke-width="10" stroke-linejoin="round">
+    <path d="M200 380 L215 150 M300 380 L285 150"/>
+    <path d="M205 300 L295 300 M210 220 L290 220"/>
+    <path d="M205 300 L290 220 M295 300 L210 220" stroke-width="5"/>
+  </g>
+  <rect x="160" y="132" width="330" height="20" fill="#f37a21"/>
+  <path d="M250 132 L250 80 L180 132 M250 80 L420 132" fill="none" stroke="#f37a21" stroke-width="5"/>
+  <rect x="226" y="152" width="50" height="34" fill="#0b2a66"/>
+  <line x1="420" y1="152" x2="420" y2="250" stroke="#0a1a3a" stroke-width="3"/>
+  <rect x="392" y="250" width="56" height="28" fill="#1f6fd1" stroke="#0a1a3a" stroke-width="1.5"/>
+
+  <!-- crane 2 -->
+  <g fill="none" stroke="#1f6fd1" stroke-width="9" stroke-linejoin="round">
+    <path d="M470 380 L482 190 M550 380 L538 190"/>
+    <path d="M474 310 L546 310 M478 245 L542 245"/>
+    <path d="M474 310 L542 245 M546 310 L478 245" stroke-width="4"/>
+  </g>
+  <rect x="440" y="174" width="260" height="17" fill="#1f6fd1"/>
+  <path d="M510 174 L510 130 L450 174 M510 130 L650 174" fill="none" stroke="#1f6fd1" stroke-width="4"/>
+
+  <!-- ship docked -->
+  <g>
+    <g stroke="#0a1a3a" stroke-width="1.5">
+      <rect x="380" y="410" width="54" height="24" fill="#e7b416"/><rect x="434" y="410" width="54" height="24" fill="#c8323c"/>
+      <rect x="488" y="410" width="54" height="24" fill="#1f6fd1"/><rect x="542" y="410" width="54" height="24" fill="#f37a21"/>
+      <rect x="596" y="410" width="54" height="24" fill="#2f9e47"/>
+    </g>
+    <rect x="660" y="384" width="56" height="50" fill="#f4f6fa"/>
+    <rect x="668" y="394" width="40" height="8" fill="#0b2a66"/>
+    <path d="M300 434 L760 434 L740 480 L330 480 Z" fill="#0a1a3a"/>
+    <path d="M310 462 L752 462 L746 474 L322 474 Z" fill="#c8323c"/>
+  </g>
+
+  <!-- water -->
+  <rect y="480" width="800" height="80" fill="url(#pwater)"/>
+  <g fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity="0.35">
+    <path d="M40 510 q20 -9 40 0 t40 0 t40 0"/>
+    <path d="M420 530 q20 -9 40 0 t40 0 t40 0 t40 0"/>
+    <path d="M220 545 q20 -9 40 0 t40 0"/>
+  </g>
+</svg>

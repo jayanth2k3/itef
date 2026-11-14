@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" role="img" aria-label="Lighthouse guiding a ship home at night">
+  <defs>
+    <linearGradient id="lsky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#071c46"/>
+      <stop offset="1" stop-color="#1f4f9a"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffe2a8" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#ffe2a8" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="420" fill="url(#lsky)"/>
+  <g fill="#ffffff">
+    <circle cx="60" cy="50" r="2"/><circle cx="140" cy="90" r="1.5"/><circle cx="250" cy="40" r="2"/>
+    <circle cx="340" cy="80" r="1.5"/><circle cx="430" cy="30" r="2"/><circle cx="520" cy="70" r="1.5"/>
+    <circle cx="560" cy="140" r="2"/><circle cx="90" cy="150" r="1.5"/>
+  </g>
+  <circle cx="500" cy="80" r="26" fill="#f4f6fa"/>
+  <circle cx="512" cy="72" r="24" fill="#0b2a66"/>
+
+  <!-- beam -->
+  <path d="M190 112 L600 40 L600 190 Z" fill="url(#beam)"/>
+
+  <!-- sea -->
+  <rect y="300" width="600" height="120" fill="#0b2a66"/>
+  <g fill="none" stroke="#5aa0ec" stroke-width="3" stroke-linecap="round" opacity="0.6">
+    <path d="M20 330 q20 -8 40 0 t40 0"/><path d="M300 350 q20 -8 40 0 t40 0 t40 0"/>
+    <path d="M120 390 q20 -8 40 0 t40 0 t40 0"/><path d="M460 395 q20 -8 40 0 t40 0"/>
+  </g>
+
+  <!-- rocks -->
+  <path d="M60 310 Q100 260 160 270 Q220 250 260 300 L270 320 L50 320 Z" fill="#14254a"/>
+
+  <!-- lighthouse -->
+  <path d="M150 280 L164 130 L216 130 L230 280 Z" fill="#f4f6fa"/>
+  <path d="M155 230 L225 230 L228 255 L152 255 Z M160 180 L220 180 L222 205 L158 205 Z" fill="#c8323c"/>
+  <rect x="156" y="122" width="68" height="10" fill="#0a1a3a"/>
+  <rect x="168" y="94" width="44" height="28" fill="#ffe2a8"/>
+  <path d="M160 94 L190 70 L220 94 Z" fill="#c8323c"/>
+  <rect x="184" y="250" width="12" height="30" fill="#0a1a3a"/>
+
+  <!-- ship -->
+  <g transform="translate(450 300)">
+    <path d="M-60 0 L60 0 L48 20 L-48 20 Z" fill="#0a1a3a"/>
+    <rect x="-36" y="-14" width="20" height="14" fill="#f37a21"/>
+    <rect x="-14" y="-14" width="20" height="14" fill="#1f6fd1"/>
+    <rect x="8" y="-14" width="20" height="14" fill="#2f9e47"/>
+    <rect x="-56" y="-26" width="16" height="26" fill="#f4f6fa"/>
+    <circle cx="50" cy="-4" r="3" fill="#ffe2a8"/>
+  </g>
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 520" role="img" aria-label="Globe with organisations connected across countries">
+  <defs>
+    <radialGradient id="gglobe" cx="0.38" cy="0.35" r="0.75">
+      <stop offset="0" stop-color="#4a98ee"/>
+      <stop offset="1" stop-color="#0b2a66"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="520" fill="#e8f2fd"/>
+  <circle cx="300" cy="260" r="210" fill="url(#gglobe)"/>
+
+  <!-- continents (stylised) -->
+  <g fill="#2f9e47" opacity="0.85">
+    <path d="M170 150 q40 -30 90 -10 q20 20 -10 40 q-30 10 -20 40 q-20 30 -50 10 q-30 -20 -30 -50 q0 -20 20 -30 Z"/>
+    <path d="M230 260 q30 -10 40 20 q10 40 -10 80 q-20 30 -30 0 q-10 -30 -20 -60 q0 -30 20 -40 Z"/>
+    <path d="M320 130 q50 -20 100 10 q30 30 10 60 q-30 10 -40 40 q-10 20 -40 0 q-30 -20 -40 -60 q0 -30 10 -50 Z"/>
+    <path d="M350 260 q40 -10 60 20 q10 40 -20 60 q-30 10 -40 -20 q-10 -30 0 -60 Z"/>
+    <path d="M420 330 q30 0 40 20 q-10 20 -40 15 q-15 -15 0 -35 Z"/>
+  </g>
+
+  <g fill="none" stroke="#ffffff" stroke-opacity="0.3" stroke-width="1.5">
+    <ellipse cx="300" cy="260" rx="90" ry="210"/>
+    <ellipse cx="300" cy="260" rx="170" ry="210"/>
+    <line x1="300" y1="50" x2="300" y2="470"/>
+    <line x1="90" y1="260" x2="510" y2="260"/>
+    <ellipse cx="300" cy="260" rx="210" ry="80"/>
+  </g>
+
+  <!-- connections -->
+  <g fill="none" stroke="#ffb27a" stroke-width="3" stroke-dasharray="2 7" stroke-linecap="round">
+    <path d="M200 170 Q300 60 380 160"/>
+    <path d="M380 160 Q470 220 380 290"/>
+    <path d="M250 300 Q310 340 380 290"/>
+    <path d="M200 170 Q170 250 250 300"/>
+    <path d="M200 170 Q320 230 380 290"/>
+    <path d="M440 345 Q430 320 380 290"/>
+  </g>
+
+  <!-- nodes -->
+  <g stroke="#ffffff" stroke-width="4">
+    <circle cx="200" cy="170" r="13" fill="#f37a21"/>
+    <circle cx="380" cy="160" r="13" fill="#2f9e47"/>
+    <circle cx="380" cy="290" r="15" fill="#f37a21"/>
+    <circle cx="250" cy="300" r="13" fill="#e7b416"/>
+    <circle cx="440" cy="345" r="11" fill="#2f9e47"/>
+  </g>
+
+  <!-- orbiting ship -->
+  <g transform="translate(470 110) rotate(25)">
+    <path d="M-34 0 L34 0 L26 14 L-26 14 Z" fill="#0a1a3a"/>
+    <rect x="-20" y="-12" width="12" height="12" fill="#f37a21"/>
+    <rect x="-6" y="-12" width="12" height="12" fill="#1f6fd1"/>
+    <rect x="8" y="-12" width="12" height="12" fill="#2f9e47"/>
+    <rect x="-32" y="-18" width="10" height="18" fill="#f4f6fa"/>
+  </g>
+  <path d="M100 400 Q60 260 140 140" fill="none" stroke="#1f6fd1" stroke-width="3" stroke-dasharray="4 8" opacity="0.6"/>
+  <path d="M500 120 Q560 260 470 410" fill="none" stroke="#1f6fd1" stroke-width="3" stroke-dasharray="4 8" opacity="0.6"/>
+</svg>
